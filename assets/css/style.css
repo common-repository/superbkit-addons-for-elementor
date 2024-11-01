@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Team Area Css */
+.team-area {
+	text-align: center;
+}
+.team-area img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.team-title h3 {
+	color: #233d63;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 38px;
+	margin-bottom: 10px;
+}
+.team-title p {
+	margin-bottom: 18px;
+}
+.team-details p {
+	margin-bottom: 27px;
+}
+.team-content {
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 30px 40px;
+}
+.team-details ul {
+    margin: 0;
+}
+.team-details li {
+   display: inline-block;
+   margin-right: 5px;
+   padding: 5px 0px;
+}
+.team-details li a {
+	background: #c1bf19;
+	height: 40px;
+	width: 40px;
+	display: block;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: .3s;
+}
+.team-details a i{
+	color: #fff;
+}
+.team-details li a:hover {
+	background: #1432d2;
+	color: #fff;
+}
